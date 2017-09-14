@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D815EE41F6A68DD00DD6D68 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D815EE31F6A68DD00DD6D68 /* AuthService.swift */; };
 		8DC5E7F21F62C4D80001C89E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5E7F11F62C4D80001C89E /* Constants.swift */; };
 		8DC5E7F41F62CBC10001C89E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5E7F31F62CBC10001C89E /* LoginVC.swift */; };
+		8DC5E7F61F62D0F70001C89E /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5E7F51F62D0F70001C89E /* CreateAccountVC.swift */; };
 		8DD160FB1F5ED49F00DCBEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD160FA1F5ED49F00DCBEC5 /* AppDelegate.swift */; };
 		8DD161001F5ED49F00DCBEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD160FE1F5ED49F00DCBEC5 /* Main.storyboard */; };
 		8DD161021F5ED49F00DCBEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD161011F5ED49F00DCBEC5 /* Assets.xcassets */; };
@@ -22,8 +24,10 @@
 /* Begin PBXFileReference section */
 		0FE4FBEDAE3BE7231A05E86B /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ADB7B22867F3EA6EE55CEA /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
+		8D815EE31F6A68DD00DD6D68 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8DC5E7F11F62C4D80001C89E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8DC5E7F31F62CBC10001C89E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8DC5E7F51F62D0F70001C89E /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		8DD160F71F5ED49F00DCBEC5 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD160FA1F5ED49F00DCBEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DD160FF1F5ED49F00DCBEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8D815EE21F6A68C700DD6D68 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D815EE31F6A68DD00DD6D68 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8DC5E7F01F62C4C50001C89E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 		8DD160F91F5ED49F00DCBEC5 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				8D815EE21F6A68C700DD6D68 /* Services */,
 				8DC5E7F01F62C4C50001C89E /* Utilities */,
 				8DD161111F5EDC7E00DCBEC5 /* Model */,
 				8DD161121F5EDC8200DCBEC5 /* View */,
@@ -121,6 +134,7 @@
 				8DD161131F5EDCA800DCBEC5 /* ChatVC.swift */,
 				8DD161151F5EDCB700DCBEC5 /* ChannelVC.swift */,
 				8DC5E7F31F62CBC10001C89E /* LoginVC.swift */,
+				8DC5E7F51F62D0F70001C89E /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,8 +296,10 @@
 				8DD161141F5EDCA800DCBEC5 /* ChatVC.swift in Sources */,
 				8DC5E7F41F62CBC10001C89E /* LoginVC.swift in Sources */,
 				8DD161161F5EDCB700DCBEC5 /* ChannelVC.swift in Sources */,
+				8DC5E7F61F62D0F70001C89E /* CreateAccountVC.swift in Sources */,
 				8DD1611C1F5EE4D900DCBEC5 /* GradientView.swift in Sources */,
 				8DD160FB1F5ED49F00DCBEC5 /* AppDelegate.swift in Sources */,
+				8D815EE41F6A68DD00DD6D68 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
